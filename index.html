@@ -4,23 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Protein Kitchen</title>
+  </head>
+  <body>
     <div class="row">
       <div class="container">
-        <div class="nav">
-          <ul>
-            <li></li>
-            <li>About</li>
-            <li>Checkout</li>
-          </ul>
-        </div>
+        <ul class="nav">
+          <li class="title">Protein Kitchen</li>
+          <li>Logo</li>
+        </ul>
+
+        <stripe-pricing-table
+          pricing-table-id="prctbl_1NqtTkKPUKsLxKhhNDNAJwpt"
+          publishable-key="pk_test_51Nqsi7KPUKsLxKhhC1YJcOcsHIoOFXB1E5Uf0apuRN1mM5MGMoKAfsUgvq8W96LUUL5M7jrPJNkusI3ftyOzxXeU003lktbBsf"
+        >
+        </stripe-pricing-table>
       </div>
     </div>
-    <stripe-pricing-table
-      pricing-table-id="prctbl_1NqtTkKPUKsLxKhhNDNAJwpt"
-      publishable-key="pk_test_51Nqsi7KPUKsLxKhhC1YJcOcsHIoOFXB1E5Uf0apuRN1mM5MGMoKAfsUgvq8W96LUUL5M7jrPJNkusI3ftyOzxXeU003lktbBsf"
-    >
-    </stripe-pricing-table>
-  </head>
-  <body></body>
+    <footer>
+      <div class="row">
+        <div class="container">
+          Protein Kitchen is your local go-to for protein-rich meals in the UBC
+          area. We pride ourselves on serving freshly baked, nutritious dishes.
+          Enjoy our delivery and pickup services, complete with detailed
+          nutrition info. Dive into a healthier dining experience with us!
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
