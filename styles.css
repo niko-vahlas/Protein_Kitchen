@@ -54,7 +54,8 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 .title {
@@ -65,4 +66,12 @@ footer {
   margin-top: 150px;
   background-color: #242424;
   color: #fff;
+}
+
+.logo-wrapper {
+  max-width: 75px;
+}
+
+.logo {
+  width: 100%;
 }
